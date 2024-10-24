@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+:root{
+    --card-bg-color: rgb(255, 255, 255);
+    --card-text-color:rgb(255, 255, 255);
+    --card-padding: 15px;
+    --header-bg-color: mediumturquoise;
+}
+
+body {
+    background: url(../Png/wallpapeer\ main.jpg);
+}
+
+.main-header{
+    background: var(--header-bg-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.main-header img{
+    width: fit-content;
+    height: 80px;
+}
+.searсh{
+    position: relative;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.searсh input{
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 99px;
+    background-color:lightblue;
+}
+.searсh button{
+    border: none;
+}
+.searсh button img{
+    position: absolute;
+    height: 50px;
+    top: 21.3px;
+    left: 404px;
+    
+}
+.main-header div{
+    display: flex;
+    gap: 20px;
+}
+.nav-bar{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+}
+.navigation a{
+    color: rgb(23, 2, 2);
+    border: 0.5px solid black;
+    border-radius: 300px;
+    background: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 1s;
+    
+}
+.navigation a:hover{
+    background: black;
+    color: white;
+}
+/* aside */
+aside{
+    display: flex;
+    background-color: rgb(23, 195, 92);
+    height: 50px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+aside a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white; 
+}
+.icon{
+    border: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px; 
+    object-fit: cover; 
+}
+/* main */
+main{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+main iframe{
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.order-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    
+    color: #333333;
+}
+
+.order-container form { 
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.order-container form input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+textarea {
+    resize: none;
+}
+
+.order-container form input[type="number"] {
+    width: 80px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.submit-btn, .pay-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #28a745;
+    transition: background-color 0.3s ease;
+}
+
+.pay-btn {
+    background-color: #007bff;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.pay-btn:hover {
+    background-color: #0056b3;
+}
+/* footer */
+footer {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.footer-container div {
+    width: 45%;
+}
+  
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+  
+.social-icons img {
+    vertical-align: middle;
+}
+  
+.about-us h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.about-us nav{
+    display: flex;
+    flex-direction: column;
+    text-align: none;
+    align-items: none;
+    gap: 10px;
+}
+.about-us nav a{
+    text-align: left;
+    gap: 30px   ;
+    text-decoration: none;
+    color:greenyellow;
+}
+.location iframe{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 10px;
+}
